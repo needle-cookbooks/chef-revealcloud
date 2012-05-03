@@ -22,7 +22,7 @@ default[:copperegg][:apikey] = "YOUR_USER_API_KEY"
 # Optional.  This field may be left blank.
 # Example: "devserver"
 # Example: "database,replica,production"
-default[:copperegg][:tags] = ""
+default[:copperegg][:tags] = Array.new
 
 # Label to apply to this system.  Only one may be specified.
 # WARNING: labels are used in place of hostname.
